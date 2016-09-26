@@ -17,7 +17,7 @@ To register fixtures add the fixtures in your configuration.
 ```php
 [
       'doctrine' => [
-            'fixture' => [
+            'fixtures' => [
                   'MyFixtures' => __DIR__ . '/../src/Fixture',
             ]
       ]
